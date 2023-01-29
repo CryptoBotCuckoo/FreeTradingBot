@@ -53,6 +53,10 @@
 # 作者联系方式
 - [x] https://t.me/gogo2rich
 
+# 新用户注册返手续费20%
+- [x] okx注册码:84764402
+- [x] binance注册码:26816229
+
 # 视频介绍
 - [x] https://www.youtube.com/watch?v=p_FB_VDH9h0&ab_channel=%E9%87%8F%E5%8C%96%E9%97%A8%E5%BE%92 第一期总体介绍
 - [x] https://www.youtube.com/watch?v=RTYUaHBnt1M&t=235s 第三期 免费机器人安装部署教程 
