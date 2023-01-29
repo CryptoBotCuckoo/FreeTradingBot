@@ -60,3 +60,4 @@
 # 视频介绍
 - [x] https://www.youtube.com/watch?v=p_FB_VDH9h0&ab_channel=%E9%87%8F%E5%8C%96%E9%97%A8%E5%BE%92 第一期总体介绍
 - [x] https://www.youtube.com/watch?v=RTYUaHBnt1M&t=235s 第三期 免费机器人安装部署教程 
+- [x] https://www.youtube.com/watch?v=9lU8EG3UBdc&t=214s 第五期 OKX免费机器人发布及策略改造方法
