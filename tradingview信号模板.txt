@@ -11,11 +11,8 @@
 	"msg_from": "tv",
 	"order_action": "{{strategy.order.comment}}",
     "time": "{{timenow}}",
-	"profit_percent": "0.8",
-	"loss_percent": "3.5",
     "leverage": "20",
-	"usdt_percent": "0.5",
     "trade_qty": "{{strategy.order.contracts}}",
-	"backhand": "0",
+	"backhand": "1",
     "sell_percent": "100"	
 }
