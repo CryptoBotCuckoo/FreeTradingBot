@@ -40,6 +40,11 @@
 - [x] trade_qty:根据策略信号中的开单平仓单位(OKX是张，如ETH 1张=0.1个，binance是个数)
 - [x] backhand：反手操作，如果设置为1，如果策略属于多空切换(开单平空或开空平多)，则改参数设置成1. 如果需要多空同时持仓，设置成0
 - [x] 其他参数暂时不用关注，这个模板是合约模板
+- [x] Tradingview comment 说明：
+      - [x] buylongandbuyshort|1|1 :表示做多平空
+      - [x] selllong|1|1 :表示平多
+      - [x] sellshortandselllong|1|1 :表示做空平多
+      - [x] buyshort|1|1 :表示平空
 # 免责声明
 - [x] 本项目免费提供交易机器人给大家使用，中途遇到bug可以提交Issues，或者在交流群告知作者，但使用中造成的亏损与作者无关。
 
