@@ -37,7 +37,10 @@
 - [x] period:取值可以是1h，15m等
 - [x] trade_side:如果只做空(wt_short), 只做多(wt_long), 多空双向(wt_both)
 - [x] leverage:杠杆倍数(机器人会帮你修改杠杆倍数，前提是未持仓的情况下)
-- [x] trade_qty:根据策略信号中的开单平仓单位(OKX是张，如ETH 1张=0.1个，binance是个数)
+- [x] trade_qty:根据策略信号中的开单平仓单位(okx和binance新版本统一改成个数)
+- [x] usdt_percent:按本金百分比方式开单
+- [x] base_usdt:按USDT金额方式开单
+- [x] sell_percent:按百分比进行平仓，注意每次平仓是剩余仓位的百分比
 - [x] backhand：反手操作，如果设置为1，如果策略属于多空切换(开单平空或开空平多)，则改参数设置成1. 如果需要多空同时持仓，设置成0
 - [x] 其他参数暂时不用关注，这个模板是合约模板
 - [x] Tradingview comment 说明：
@@ -45,6 +48,7 @@
       selllong|1|1 :表示平多
       sellshortandselllong|1|1 :表示做空平多
       buyshort|1|1 :表示平空
+  特别注意:trade_qty,usdt_percent,base_usdt 只能配置一个，即3选1
 # 免责声明
 - [x] 本项目免费提供交易机器人给大家使用，中途遇到bug可以提交Issues，或者在交流群告知作者，但使用中造成的亏损与作者无关。
 
