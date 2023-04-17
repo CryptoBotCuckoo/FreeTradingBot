@@ -1,7 +1,8 @@
 # FreeTradingBot
 提供各个交易所的交易机器人(Provide trading robots for each exchange)
-- [x] Binance(期货(swap), 现货(spot))
+- [x] Binance(期货(swap)
 - [x] Okx(期货(swap), 现货(spot))
+- [x] Bitget(期货(swap)
 
 # 计划
 - [x] 2023年1月10号之前，发布Binance tradingview直连机器人。
