@@ -1,7 +1,7 @@
 # FreeTradingBot
 提供各个交易所的交易机器人(Provide trading robots for each exchange)
 - [x] Binance(期货(swap)
-- [x] Okx(期货(swap), 现货(spot))
+- [x] Okx(期货(swap), 现货(spot))，TV对接机器人和高频网格机器人
 - [x] Bitget(期货(swap)
 
 # 计划
