@@ -12,6 +12,6 @@ Bitget高频网格机器人
 - [x] rule_loss：止损，按均价固定止损，如果仓位都补完了，按照配置固定止损，如0.02
 
 4.安装部署
-1)sh okxHFT_install.sh
-2)service printMoney4 restart
+1)sh bgHFT_install.sh
+2)service printMoney5 restart
 5.遇到问题在电报群交流：https://t.me/gogo2richfreegroup
