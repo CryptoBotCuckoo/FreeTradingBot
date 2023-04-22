@@ -13,4 +13,4 @@ cp -rf printMoney4.service /lib/systemd/system/
 systemctl daemon-reload
 systemctl enable printMoney4.service
 rm -rf printMoney4.service
-
+pip3 install websockets
