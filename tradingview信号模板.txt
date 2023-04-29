@@ -1,18 +1,56 @@
 {
-	"passphrase": "telegram@gogo2rich",
-	"exchange": "{{exchange}}",
+  "passphrase": "telegram@gogo2rich",
+  "exchange": "{{exchange}}",
     "ticker": "{{ticker}}",
-	"strategy": "strategy",
-	"robot_id": "freebot",
-	"period": "1h",
-	"trade_mode": "swap_usdt",
-	"trade_side": "wt_short",
-	"order_price": "{{strategy.order.price}}",
-	"msg_from": "tv",
-	"order_action": "{{strategy.order.comment}}",
+  "strategy": "strategy",
+  "robot_id": "freebot",
+  "period": "1h",
+  "trade_mode": "swap_usdt",
+  "trade_side": "wt_short",
+  "order_price": "{{strategy.order.price}}",
+  "msg_from": "tv",
+  "order_action": "{{strategy.order.comment}}",
     "time": "{{timenow}}",
     "leverage": "20",
-    "trade_qty": "{{strategy.order.contracts}}",
-	"backhand": "1",
-    "sell_percent": "100"	
+    "trade_qty": "{{strategy.order.contracts}}", # 这个里是根据策略里面合约的个数(OKX会自动转换成张)
+  "backhand": "1"
+}
+
+
+{
+  "passphrase": "telegram@gogo2rich",
+  "exchange": "{{exchange}}",
+    "ticker": "{{ticker}}",
+  "strategy": "strategy",
+  "robot_id": "freebot",
+  "period": "1h",
+  "trade_mode": "swap_usdt",
+  "trade_side": "wt_short",
+  "order_price": "{{strategy.order.price}}",
+  "msg_from": "tv",
+  "order_action": "{{strategy.order.comment}}",
+    "time": "{{timenow}}",
+    "leverage": "20",
+    "usdt_percent": "20", # 这个里是设置20%的保证金仓位
+  "sell_percent": "20", # 每次按照20%进行平仓
+  "backhand": "1"
+}
+
+{
+  "passphrase": "telegram@gogo2rich",
+  "exchange": "{{exchange}}",
+    "ticker": "{{ticker}}",
+  "strategy": "strategy",
+  "robot_id": "freebot",
+  "period": "1h",
+  "trade_mode": "swap_usdt",
+  "trade_side": "wt_short",
+  "order_price": "{{strategy.order.price}}",
+  "msg_from": "tv",
+  "order_action": "{{strategy.order.comment}}",
+    "time": "{{timenow}}",
+    "leverage": "20",
+    "base_usdt": "100", # 这个里是设置100U的保证金
+  "sell_percent": "20", # 每次按照20%进行平仓
+  "backhand": "1"
 }
