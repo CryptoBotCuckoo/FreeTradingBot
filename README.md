@@ -53,10 +53,6 @@
 # 免责声明
 - [x] 本项目免费提供交易机器人给大家使用，中途遇到bug可以提交Issues，或者在交流群告知作者，但使用中造成的亏损与作者无关。
 
-# 捐赠
-- [x] 本项目是开源项目，大家的支持也是对作者最大的动力。
-- [x] TRC20 USDT:TEyNzxyGuCHiesy6fr9FW81P42VE4evVXM
-
 # 讨论组
 - [x] https://t.me/gogo2richfreegroup (开源没有任何资金费用,其他电报非本人,谨防上当)
 
