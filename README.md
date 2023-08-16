@@ -57,8 +57,8 @@
 - [x] 本项目是开源项目，大家的支持也是对作者最大的动力。
 - [x] TRC20 USDT:TEyNzxyGuCHiesy6fr9FW81P42VE4evVXM
 
-# 作者联系方式
-- [x] https://t.me/gogo2rich
+# 讨论组
+- [x] https://t.me/gogo2richfreegroup (开源没有任何资金费用,其他电报非本人,谨防上当)
 
 # 新用户注册返手续费20%
 - [x] okx注册码:84764402
